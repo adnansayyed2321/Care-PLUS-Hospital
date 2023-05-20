@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+@media screen and (max-width: 576px) {
+  .home-main-container {
+    font-family: 'Roboto';
+    background-color: rgba(19, 238, 157, 0.773);
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .main-bar-head-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button-patient-details {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    padding-left: 35px;
+    margin-top: 15px;
+  }
+  .logout-button {
+    display: none;
+  }
+  .logout-button-2 {
+    margin-left: 85px;
+    background-color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-width: 0px;
+    border-radius: 6px;
+    background-color: red;
+    color: #ffffff;
+    height: 20px;
+    padding-bottom: 4px;
+    margin-top: 2px;
+  }
+  .appointment_card {
+    background-color: #ffffff;
+    margin-left: 37px;
+    margin-top: 25px;
+    margin-right: 37px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .appointment-image {
+    display: none;
+  }
+  .appointment-image012 {
+    width: 60%;
+    margin-top: 25px;
+    margin-left: 60px;
+  }
+  .details-of-appointment {
+    display: flex;
+    flex-direction: column;
+  }
+  .concerned_doctor {
+    margin-top: 15px;
+  }
+  .select-docotr {
+    width: 95%;
+    margin-left: 1px;
+    border-radius: 4px;
+  }
+  .last-container {
+    background-color: #ffffff;
+    margin-top: 15px;
+    padding: 20px;
+    margin-left: 37px;
+    margin-right: 37px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+  }
+  .details-match {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .home-main-container {
+    font-family: 'Roboto';
+    background-color: rgba(19, 238, 157, 0.773);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 150px;
+  }
+  .main-bar-head-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logout-button {
+    margin-left: 130px;
+    background-color: #ffffff;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-width: 0px;
+    border-radius: 6px;
+    background-color: red;
+    color: #ffffff;
+  }
+  .logout-button-2 {
+    display: none;
+  }
+  .appointment_card {
+    background-color: #ffffff;
+    margin-top: 10px;
+  }
+  .appointment-image012 {
+    display: none;
+  }
+  .appointment_card {
+    padding: 35px;
+    border-radius: 15px;
+  }
+  .appointment-card_123 {
+    display: flex;
+    flex-direction: row;
+  }
+  .details-of-appointment {
+    display: flex;
+    flex-direction: column;
+  }
+  .appointment-image {
+    margin-left: 150px;
+  }
+  .concerned_doctor {
+    font-size: 23px;
+    margin-top: 28px;
+  }
+  .select-docotr {
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 355px;
+  }
+  .last-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-top: 15px;
+    padding: 25px;
+  }
+  .details-match {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .para {
+    margin-right: 15px;
+  }
+  .final-container {
+    width: 450px;
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+  width: 340px;
+  border-radius: 15px;
+}
+.logo-image {
+  height: 95px;
+  border-radius: 15px;
+}
+
+.customer-details {
+  background-color: #ffffff;
+  margin-top: 2px;
+  padding: 15px;
+  border-radius: 8px;
+}
+.add-butt {
+  width: 80px;
+  margin-top: 15px;
+  border-width: 0px;
+  background-color: rgb(52, 52, 199);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 15px;
+}
+.final-para {
+  color: green;
+  font-weight: 800;
+}
+.HEADING-08765 {
+  color: rgba(6, 83, 113, 0.916);
+}

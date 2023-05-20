@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+@media screen and (min-width: 576px) {
+  .main-container-login-form {
+    background-image: url('https://res.cloudinary.com/adnansayyed2321/image/upload/v1684470352/IMG_20230519_095311_ljnzcc.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: rgba(6, 83, 113, 0.916);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    font-family: 'roboto';
+  }
+  .main-second-container {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+  }
+  .heading-01 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+  .patient-name-details {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    margin-bottom: 25px;
+  }
+  .label-patient {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .input-bar-patient-name {
+    height: 22px;
+  }
+  .button-login-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-con {
+    background-color: rgba(30, 114, 231, 0.711);
+    color: antiquewhite;
+    width: 150px;
+    align-self: center;
+    margin-top: 25px;
+    border-width: 0px;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+  }
+  .error-messsage {
+    margin: 10px;
+    color: red;
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width: 576px) {
+  .main-container-login-form {
+    background-image: url('https://res.cloudinary.com/adnansayyed2321/image/upload/v1684470352/IMG_20230519_095311_ljnzcc.jpg');
+    background-size: cover;
+    height: 100vh;
+    color: rgba(6, 83, 113, 0.916);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    font-family: 'roboto';
+  }
+  .main-second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+  }
+  .heading-01 {
+    font-size: 35px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+  }
+  .patient-name-details {
+    color: black;
+    margin-bottom: 25px;
+  }
+  .button-con {
+    background-color: rgba(30, 114, 231, 0.711);
+    color: antiquewhite;
+
+    align-self: center;
+    margin-top: 25px;
+    border-width: 0px;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+  }
+  .error-messsage {
+    margin: 10px;
+    color: red;
+    align-self: flex-start;
+  }
+}
